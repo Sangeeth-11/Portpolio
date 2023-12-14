@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    font-family: 'Kalnia', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(221, 227, 233);
+}
+.navlogo{
+    width: 100px;
+}
+.navlinks{
+    padding: 30px;
+}
+.link{
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: font-size 500ms;
+}
+.link:hover{
+    font-size: 25px;
+    color: red;
+}
+#home{
+    position: relative;
+    margin-top: 50px;
+    height: 550px;
+}
+.homecontent{
+    top: 50px;
+    padding: 20px;
+    margin: 20px;
+    width: 45%;
+}
+.homecontent h1{
+    font-size: 60px;
+}
+.homecontent span{
+    color: red;
+}
+.homecontent p{ 
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.homecontent a{
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+.homeimg{
+    position: absolute;
+    top: 45px;
+    right: 200px;
+}
+.homeimg img{
+    width: 500px;
+    height: 400px;
+    transition: transform 400ms;
+}
+.homeimg img:hover{
+    transform: scale(1.3);
+}
+
+#about{
+    height: 450px;
+    padding: 25px;
+}
+.abouttitle{
+   text-align: center;
+   font-size: 50px;
+   color: blue;
+}
+.about h4{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(199, 111, 39);
+}
+.aboutcontent img{
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+.aboutcontent p{
+    left: 25px;
+    position: relative;
+}
+.fa-solid{
+    margin-top: 15px;
+}
